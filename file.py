@@ -7,9 +7,8 @@ def create_file_():
    path_ = os.getcwd()
    path_update_ = path_ + "/assets.yml"
 
-   print(path_update_)
    if os.path.isfile(path_update_):
-      print(" File found")
+      print(" The old assets.yml file found")
       f = open("assets.yml" , "a")
       print("Old file has been found and it is opened as append mode")
       print("......................")
